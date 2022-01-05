@@ -23,8 +23,8 @@
 		6FA769E9277E95B1004CDB61 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = usr/share/man/man1;
-			dstSubfolderSpec = 7;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
 				6FA76B14277E9AC1004CDB61 /* 3.3.shader.fs in CopyFiles */,
 				6FA76B15277E9AC1004CDB61 /* 3.3.shader.vs in CopyFiles */,
