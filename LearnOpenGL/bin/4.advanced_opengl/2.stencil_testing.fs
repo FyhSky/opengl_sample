@@ -1,0 +1,1 @@
+/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/4.advanced_opengl/2.stencil_testing/2.stencil_testing.fs

@@ -1,0 +1,1 @@
+/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/4.advanced_opengl/11.2.anti_aliasing_offscreen/11.2.aa_post.fs

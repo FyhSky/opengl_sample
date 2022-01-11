@@ -1,0 +1,10 @@
+Target dependency graph (4 targets)
+ZERO_CHECK in LearnOpenGL, no dependencies
+STB_IMAGE in LearnOpenGL, depends on:
+ZERO_CHECK in LearnOpenGL (explicit)
+GLAD in LearnOpenGL, depends on:
+ZERO_CHECK in LearnOpenGL (explicit)
+4.advanced_opengl__1.1.depth_testing in LearnOpenGL, depends on:
+STB_IMAGE in LearnOpenGL (explicit)
+GLAD in LearnOpenGL (explicit)
+ZERO_CHECK in LearnOpenGL (explicit)
