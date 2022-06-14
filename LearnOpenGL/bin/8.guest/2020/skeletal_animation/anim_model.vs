@@ -1,0 +1,1 @@
+/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/8.guest/2020/skeletal_animation//anim_model.vs
