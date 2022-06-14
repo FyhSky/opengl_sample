@@ -1,1 +1,0 @@
-/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/2.lighting/4.1.lighting_maps_diffuse_map/4.1.lighting_maps.fs

@@ -1,1 +1,0 @@
-/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/5.advanced_lighting/5.1.parallax_mapping/5.1.parallax_mapping.vs

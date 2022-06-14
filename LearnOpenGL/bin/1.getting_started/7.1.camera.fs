@@ -1,1 +1,0 @@
-/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/1.getting_started/7.1.camera_circle/7.1.camera.fs

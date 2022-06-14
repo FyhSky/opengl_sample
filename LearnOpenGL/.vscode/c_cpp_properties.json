@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "osx",
+            "includePath": [
+                "${workspaceFolder}/includes/**",
+                "${workspaceFolder}/**",
+            ],
+            "defines": [
+                 "_DEBUG",
+                 "UNICODE",
+                  "_UNICODE"],
+            "macFrameworkPath": [],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "compilerPath": "/usr/bin/g++",
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools",
+            "browse": {
+                "path": ["${workspaceFolder}"],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}

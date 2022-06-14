@@ -1,1 +1,0 @@
-/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/1.getting_started/4.1.textures/4.1.texture.fs

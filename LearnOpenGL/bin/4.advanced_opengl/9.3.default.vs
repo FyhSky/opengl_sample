@@ -1,1 +1,0 @@
-/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/4.advanced_opengl/9.3.geometry_shader_normals/9.3.default.vs

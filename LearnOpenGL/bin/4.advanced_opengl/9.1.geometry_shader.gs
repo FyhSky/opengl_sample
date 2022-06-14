@@ -1,1 +1,0 @@
-/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/4.advanced_opengl/9.1.geometry_shader_houses/9.1.geometry_shader.gs

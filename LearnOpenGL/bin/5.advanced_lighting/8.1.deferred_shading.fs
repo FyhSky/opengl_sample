@@ -1,1 +1,0 @@
-/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/5.advanced_lighting/8.1.deferred_shading/8.1.deferred_shading.fs

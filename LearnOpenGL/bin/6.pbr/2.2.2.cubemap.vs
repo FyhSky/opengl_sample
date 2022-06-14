@@ -1,1 +1,0 @@
-/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/6.pbr/2.2.2.ibl_specular_textured/2.2.2.cubemap.vs

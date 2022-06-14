@@ -1,1 +1,0 @@
-/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/6.pbr/1.2.lighting_textured/1.2.pbr.vs

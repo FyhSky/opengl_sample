@@ -1,1 +1,0 @@
-/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/1.getting_started/6.2.coordinate_systems_depth/6.2.coordinate_systems.fs

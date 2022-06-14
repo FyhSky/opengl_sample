@@ -1,0 +1,1235 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `src/1.getting_started/7.6.camera_exercise2/camera_exercise2.o', needed by `main'.  Stop.
+
+
+# Make data base, printed on Tue Jun 14 16:25:28 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 21)
+SRC := src
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `Makefile', line 48)
+INCLUDES := -Iincludes -Iincludes/freetype -Iincludes/freetype/config -Iincludes/freetype/internal -Iincludes/freetype/internal/services -Iincludes/assimp -Iincludes/assimp/port -Iincludes/assimp/port/AndroidJNI -Iincludes/assimp/Compiler -Iincludes/KHR -Iincludes/learnopengl -Iincludes/irrKlang -Iincludes/glad -Iincludes/GL -Iincludes/GLFW -Iincludes/glm -Iincludes/glm/ext -Iincludes/glm/simd -Iincludes/glm/detail -Iincludes/glm/gtc -Iincludes/glm/gtx
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL
+# makefile
+SHELL = /bin/sh
+# makefile (from `Makefile', line 43)
+RM = rm -f
+ 
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# environment
+THEOS_DEVICE_IP = 127.0.0.1
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 54)
+SOURCES := src/stb_image.cpp src/1.getting_started/6.1.coordinate_systems/coordinate_systems.cpp src/1.getting_started/7.6.camera_exercise2/camera_exercise2.cpp src/1.getting_started/3.6.shaders_exercise3/shaders_exercise3.cpp src/1.getting_started/1.2.hello_window_clear/hello_window_clear.cpp src/1.getting_started/7.3.camera_mouse_zoom/camera_mouse_zoom.cpp src/1.getting_started/5.2.transformations_exercise2/transformations_exercise2.cpp src/1.getting_started/7.1.camera_circle/camera_circle.cpp src/1.getting_started/4.3.textures_exercise1/textures_exercise1.cpp src/1.getting_started/7.5.camera_exercise1/camera_exercise1.cpp src/1.getting_started/4.4.textures_exercise2/textures_exercise2.cpp src/1.getting_started/4.2.textures_combined/textures_combined.cpp src/1.getting_started/3.5.shaders_exercise2/shaders_exercise2.cpp src/1.getting_started/6.3.coordinate_systems_multiple/coordinate_systems_multiple.cpp src/1.getting_started/7.2.camera_keyboard_dt/camera_keyboard_dt.cpp src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp src/1.getting_started/5.1.transformations/transformations.cpp src/1.getting_started/6.4.coordinate_systems_exercise3/coordinate_systems_exercise3.cpp src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.cpp src/1.getting_started/2.2.hello_triangle_indexed/hello_triangle_indexed.cpp src/1.getting_started/4.6.textures_exercise4/textures_exercise4.cpp src/1.getting_started/4.1.textures/textures.cpp src/1.getting_started/6.2.coordinate_systems_depth/coordinate_systems_depth.cpp src/1.getting_started/4.5.textures_exercise3/textures_exercise3.cpp src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.cpp src/1.getting_started/3.3.shaders_class/shaders_class.cpp src/1.getting_started/7.4.camera_class/camera_class.cpp src/1.getting_started/5.2.transformations_exercise1/transformations_exercise1.cpp src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.cpp src/1.getting_started/3.4.shaders_exercise1/shaders_exercise1.cpp src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.cpp src/1.getting_started/2.1.hello_triangle/hello_triangle.cpp src/1.getting_started/1.1.hello_window/hello_window.cpp src/6.pbr/2.1.1.ibl_irradiance_conversion/ibl_irradiance_conversion.cpp src/6.pbr/2.2.1.ibl_specular/ibl_specular.cpp src/6.pbr/2.1.2.ibl_irradiance/ibl_irradiance.cpp src/6.pbr/1.1.lighting/lighting.cpp src/6.pbr/1.2.lighting_textured/lighting_textured.cpp src/6.pbr/2.2.2.ibl_specular_textured/ibl_specular_textured.cpp src/7.in_practice/1.debugging/debugging.cpp src/7.in_practice/2.text_rendering/text_rendering.cpp src/7.in_practice/3.2d_game/0.full_source/ball_object.cpp src/7.in_practice/3.2d_game/0.full_source/game.cpp src/7.in_practice/3.2d_game/0.full_source/game_level.cpp src/7.in_practice/3.2d_game/0.full_source/game_object.cpp src/7.in_practice/3.2d_game/0.full_source/particle_generator.cpp src/7.in_practice/3.2d_game/0.full_source/post_processor.cpp src/7.in_practice/3.2d_game/0.full_source/program.cpp src/7.in_practice 
+/3.2d_game/0.full_source/resource_manager.cpp src/7.in_practice/3.2d_game/0.full_source/shader.cpp src/7.in_practice/3.2d_game/0.full_source/sprite_renderer.cpp src/7.in_practice/3.2d_game/0.full_source/stb_image.cpp src/7.in_practice/3.2d_game/0.full_source/text_renderer.cpp src/7.in_practice/3.2d_game/0.full_source/texture.cpp src/7.in_practice/3.2d_game/0.full_source/progress/2.game.cpp src/7.in_practice/3.2d_game/0.full_source/progress/2.program.cpp src/7.in_practice/3.2d_game/0.full_source/progress/3.game.cpp src/7.in_practice/3.2d_game/0.full_source/progress/4.game.cpp src/7.in_practice/3.2d_game/0.full_source/progress/5.1.ball_object_collisions.cpp src/7.in_practice/3.2d_game/0.full_source/progress/5.game.cpp src/7.in_practice/3.2d_game/0.full_source/progress/6.game.cpp src/7.in_practice/3.2d_game/0.full_source/progress/7.game.cpp src/7.in_practice/3.2d_game/0.full_source/progress/8.game.cpp src/7.in_practice/3.2d_game/0.full_source/progress/9.game.cpp src/2.lighting/5.2.light_casters_point/light_casters_point.cpp src/2.lighting/2.5.basic_lighting_exercise3/basic_lighting_exercise3.cpp src/2.lighting/4.2.lighting_maps_specular_map/lighting_maps_specular.cpp src/2.lighting/4.3.lighting_maps_exercise2/lighting_maps_exercise2.cpp src/2.lighting/5.1.light_casters_directional/light_casters_directional.cpp src/2.lighting/6.multiple_lights/multiple_lights.cpp src/2.lighting/1.colors/colors.cpp src/2.lighting/2.3.basic_lighting_exercise1/basic_lighting_exercise1.cpp src/2.lighting/4.4.lighting_maps_exercise4/lighting_maps_exercise4.cpp src/2.lighting/6.multiple_lights_exercise1/multiple_lights_exercise1.cpp src/2.lighting/3.2.materials_exercise1/materials_exercise1.cpp src/2.lighting/2.4.basic_lighting_exercise2/basic_lighting_exercise2.cpp src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.cpp src/2.lighting/5.3.light_casters_spot/light_casters_spot.cpp src/2.lighting/3.1.materials/materials.cpp src/2.lighting/4.1.lighting_maps_diffuse_map/lighting_maps_diffuse.cpp src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.cpp src/2.lighting/5.4.light_casters_spot_soft/light_casters_spot_soft.cpp src/4.advanced_opengl/1.1.depth_testing/depth_testing.cpp src/4.advanced_opengl/9.2.geometry_shader_exploding/geometry_shader_exploding.cpp src/4.advanced_opengl/1.2.depth_testing_view/depth_testing_view.cpp src/4.advanced_opengl/4.face_culling_exercise1/face_culling_exercise1.cpp src/4.advanced_opengl/2.stencil_testing/stencil_testing.cpp src/4.advanced_opengl/6.2.cubemaps_environment_mapping/cubemaps_environment_mapping.cpp src/4.advanced_opengl/8.advanced_glsl_ubo/advanced_glsl_ubo.cpp src/4.advanced_opengl/10.1.instancing_quads/instancing_quads.cpp src/4.advanced_opengl/3.2.blending_sort/blending_sorted.cpp src/4.advanced_opengl/10.3.asteroids_instanced/asteroids_instanced.cpp src/4.advanced_opengl/6.1.cubemaps_skybox/cubemaps_skybox.cpp src/4.advanced_opengl/5.2.framebuffers_exercise1/framebuffers_exercise1.cpp src/4.advanced_opengl/5.1.framebuffers/framebuffers.cpp src/4.advanced_opengl/3.1.blending_discard/blending_discard.cpp src/4.advanced_opengl/11.1.anti_aliasing_msaa/anti_aliasing_msaa.cpp src/4.advanced_opengl/10.2.asteroids/asteroids.cpp src/4.advanced_opengl/11.2.anti_aliasing_offscreen/anti_aliasing_offscreen.cpp src/4.advanced_opengl/9.3.geometry_shader_normals/normal_visualization.cpp src/4.advanced_opengl/9.1.geometry_shader_houses/geometry_shader_houses.cpp src/5.advanced_lighting/3.1.1.shadow_mapping_depth/shadow_mapping_depth.cpp src/5.advanced_lighting/2.gamma_correction/gamma_correction.cpp src/5.advanced_lighting/8.1.deferred_shading/deferred_shading.cpp src/5.advanced_lighting/5.2.steep_parallax_mapping/steep_parallax_mapping.cpp src/5.advanced_lighting/4.normal_mapping/normal_mapping.cpp src/5.advanced_lighting/8.2.deferred_shading_volumes/deferred_shading_volumes.cpp src/5.advanced_lighting/3.2.1.point_shadows/point_shadows.cpp src/5.advanced_lighting/7.bloom/bloom.cpp src/5.advanced_lighting/5.3.parallax_occlusion_mapping/parallax_occlusion_mapping.cpp src/5.advanced_lighting/9. 
+ssao/ssao.cpp src/5.advanced_lighting/3.1.3.shadow_mapping/shadow_mapping.cpp src/5.advanced_lighting/1.advanced_lighting/advanced_lighting.cpp src/5.advanced_lighting/3.3.csm/csm.cpp src/5.advanced_lighting/3.2.2.point_shadows_soft/point_shadows_soft.cpp src/5.advanced_lighting/6.hdr/hdr.cpp src/5.advanced_lighting/5.1.parallax_mapping/parallax_mapping.cpp src/5.advanced_lighting/3.1.2.shadow_mapping_base/shadow_mapping_base.cpp src/3.model_loading/1.model_loading/model_loading.cpp src/8.guest/2022/5.computeshader_helloworld/computer_shader_hello_world.cpp src/8.guest/2022/6.physically_based_bloom/physically_based_bloom.cpp src/8.guest/2021/1.scene/2.frustum_culling/frustum_culling.cpp src/8.guest/2021/1.scene/1.scene_graph/scene_graph.cpp src/8.guest/2021/2.csm/shadow_mapping.cpp src/8.guest/2021/3.tessellation/terrain_gpu_dist/main.cpp src/8.guest/2021/3.tessellation/terrain_cpu_src/main.cpp src/8.guest/2021/4.dsa/hello_triangle_dsa.cpp src/8.guest/2020/oit/weighted_blended.cpp src/8.guest/2020/skeletal_animation/skeletal_animation.cpp
+# makefile (from `Makefile', line 10)
+CXXFLAGS := -std=c++17 -Wall -Wextra -g
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/52/fzztdt0952z9297fbzmwjllm0000gn/T/vscode-ipc-64c93a24-59d6-4cd1-96b0-3c5c7158bf8b.sock
+# environment
+THEOS_DEVICE_PORT = 10010
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /Users/fengyinghao/Workspace/depot_tools:/usr/local/opt/openssl@3/bin:/Users/fengyinghao/theos/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/GPAC.app/Contents/MacOS/:/opt/X11/bin:/Library/Apple/usr/bin:/Users/fengyinghao/Library/Android/sdk/tools:/Users/fengyinghao/Library/Android/sdk/platform-tools
+# makefile (from `Makefile', line 44)
+MD := mkdir -p
+# makefile (from `Makefile', line 41)
+LIBDIRS := lib
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+ANDROID_HOME = /Users/fengyinghao/Library/Android/sdk
+# makefile (from `Makefile', line 27)
+LIB := lib
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.TFVYCDp5Kc/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = /private/tmp/com.apple.launchd.2sldshONPl/org.xquartz:0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL
+# makefile (from `Makefile', line 65)
+OUTPUTMAIN := output/main
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/fengyinghao
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/fengyinghao/Library/Application Support/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+LOGNAME = fengyinghao
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from `Makefile', line 40)
+INCLUDEDIRS := includes includes/freetype includes/freetype/config includes/freetype/internal includes/freetype/internal/services includes/assimp includes/assimp/port includes/assimp/port/AndroidJNI includes/assimp/Compiler includes/KHR includes/learnopengl includes/irrKlang includes/glad includes/GL includes/GLFW includes/glm includes/glm/ext includes/glm/simd includes/glm/detail includes/glm/gtc includes/glm/gtx
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 42)
+FIXPATH = $1
+# environment
+JAVA_HOME = /Applications/Android Studio.app/Contents/jre/Contents/Home/
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = fengyinghao
+# makefile
+.DEFAULT_GOAL := all
+ 
+# makefile (from `Makefile', line 24)
+INCLUDE := includes
+# makefile (from `Makefile', line 39)
+SOURCEDIRS := src src/1.getting_started src/1.getting_started/6.1.coordinate_systems src/1.getting_started/7.6.camera_exercise2 src/1.getting_started/3.6.shaders_exercise3 src/1.getting_started/1.2.hello_window_clear src/1.getting_started/7.3.camera_mouse_zoom src/1.getting_started/5.2.transformations_exercise2 src/1.getting_started/7.1.camera_circle src/1.getting_started/4.3.textures_exercise1 src/1.getting_started/7.5.camera_exercise1 src/1.getting_started/4.4.textures_exercise2 src/1.getting_started/4.2.textures_combined src/1.getting_started/3.5.shaders_exercise2 src/1.getting_started/6.3.coordinate_systems_multiple src/1.getting_started/7.2.camera_keyboard_dt src/1.getting_started/3.1.shaders_uniform src/1.getting_started/5.1.transformations src/1.getting_started/6.4.coordinate_systems_exercise3 src/1.getting_started/2.3.hello_triangle_exercise1 src/1.getting_started/2.2.hello_triangle_indexed src/1.getting_started/4.6.textures_exercise4 src/1.getting_started/4.1.textures src/1.getting_started/6.2.coordinate_systems_depth src/1.getting_started/4.5.textures_exercise3 src/1.getting_started/3.2.shaders_interpolation src/1.getting_started/3.3.shaders_class src/1.getting_started/7.4.camera_class src/1.getting_started/5.2.transformations_exercise1 src/1.getting_started/2.4.hello_triangle_exercise2 src/1.getting_started/3.4.shaders_exercise1 src/1.getting_started/2.5.hello_triangle_exercise3 src/1.getting_started/2.1.hello_triangle src/1.getting_started/1.1.hello_window src/6.pbr src/6.pbr/2.1.1.ibl_irradiance_conversion src/6.pbr/2.2.1.ibl_specular src/6.pbr/2.1.2.ibl_irradiance src/6.pbr/1.1.lighting src/6.pbr/1.2.lighting_textured src/6.pbr/2.2.2.ibl_specular_textured src/7.in_practice src/7.in_practice/1.debugging src/7.in_practice/2.text_rendering src/7.in_practice/3.2d_game src/7.in_practice/3.2d_game/0.full_source src/7.in_practice/3.2d_game/0.full_source/progress src/7.in_practice/3.2d_game/0.full_source/levels src/2.lighting src/2.lighting/5.2.light_casters_point src/2.lighting/2.5.basic_lighting_exercise3 src/2.lighting/4.2.lighting_maps_specular_map src/2.lighting/4.3.lighting_maps_exercise2 src/2.lighting/5.1.light_casters_directional src/2.lighting/6.multiple_lights src/2.lighting/1.colors src/2.lighting/2.3.basic_lighting_exercise1 src/2.lighting/4.4.lighting_maps_exercise4 src/2.lighting/6.multiple_lights_exercise1 src/2.lighting/3.2.materials_exercise1 src/2.lighting/2.4.basic_lighting_exercise2 src/2.lighting/2.2.basic_lighting_specular src/2.lighting/5.3.light_casters_spot src/2.lighting/3.1.materials src/2.lighting/4.1.lighting_maps_diffuse_map src/2.lighting/2.1.basic_lighting_diffuse src/2.lighting/5.4.light_casters_spot_soft src/4.advanced_opengl src/4.advanced_opengl/1.1.depth_testing src/4.advanced_opengl/9.2.geometry_shader_exploding src/4.advanced_opengl/1.2.depth_testing_view src/4.advanced_opengl/4.face_culling_exercise1 src/4.advanced_opengl/2.stencil_testing src/4.advanced_opengl/6.2.cubemaps_environment_mapping src/4.advanced_opengl/8.advanced_glsl_ubo src/4.advanced_opengl/10.1.instancin 
+g_quads src/4.advanced_opengl/3.2.blending_sort src/4.advanced_opengl/10.3.asteroids_instanced src/4.advanced_opengl/6.1.cubemaps_skybox src/4.advanced_opengl/5.2.framebuffers_exercise1 src/4.advanced_opengl/5.1.framebuffers src/4.advanced_opengl/3.1.blending_discard src/4.advanced_opengl/11.1.anti_aliasing_msaa src/4.advanced_opengl/10.2.asteroids src/4.advanced_opengl/11.2.anti_aliasing_offscreen src/4.advanced_opengl/9.3.geometry_shader_normals src/4.advanced_opengl/9.1.geometry_shader_houses src/5.advanced_lighting src/5.advanced_lighting/3.1.1.shadow_mapping_depth src/5.advanced_lighting/2.gamma_correction src/5.advanced_lighting/8.1.deferred_shading src/5.advanced_lighting/5.2.steep_parallax_mapping src/5.advanced_lighting/4.normal_mapping src/5.advanced_lighting/8.2.deferred_shading_volumes src/5.advanced_lighting/3.2.1.point_shadows src/5.advanced_lighting/7.bloom src/5.advanced_lighting/5.3.parallax_occlusion_mapping src/5.advanced_lighting/9.ssao src/5.advanced_lighting/3.1.3.shadow_mapping src/5.advanced_lighting/1.advanced_lighting src/5.advanced_lighting/3.3.csm src/5.advanced_lighting/3.2.2.point_shadows_soft src/5.advanced_lighting/6.hdr src/5.advanced_lighting/5.1.parallax_mapping src/5.advanced_lighting/3.1.2.shadow_mapping_base src/3.model_loading src/3.model_loading/1.model_loading src/8.guest src/8.guest/2022 src/8.guest/2022/5.computeshader_helloworld src/8.guest/2022/6.physically_based_bloom src/8.guest/2021 src/8.guest/2021/1.scene src/8.guest/2021/1.scene/2.frustum_culling src/8.guest/2021/1.scene/1.scene_graph src/8.guest/2021/2.csm src/8.guest/2021/3.tessellation src/8.guest/2021/3.tessellation/terrain_gpu_dist src/8.guest/2021/3.tessellation/terrain_gpu_dist/resources src/8.guest/2021/3.tessellation/terrain_gpu_dist/resources/heightmaps src/8.guest/2021/3.tessellation/terrain_cpu_src src/8.guest/2021/3.tessellation/terrain_cpu_src/resources src/8.guest/2021/3.tessellation/terrain_cpu_src/resources/heightmaps src/8.guest/2021/4.dsa src/8.guest/2020 src/8.guest/2020/oit src/8.guest/2020/skeletal_animation
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `Makefile', line 15)
+LFLAGS = 
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/52/fzztdt0952z9297fbzmwjllm0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/fengyinghao/Library/Application Support/Code/1.68.0-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from `Makefile', line 38)
+MAIN := main
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.61139708.61139714
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# makefile (from `Makefile', line 18)
+ 
+OUTPUT := output
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 7)
+CXX = g++
+# environment
+LC_ALL = C
+# makefile (from `Makefile', line 51)
+LIBS := -Llib
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# makefile (from `Makefile', line 57)
+OBJECTS := src/stb_image.o src/1.getting_started/6.1.coordinate_systems/coordinate_systems.o src/1.getting_started/7.6.camera_exercise2/camera_exercise2.o src/1.getting_started/3.6.shaders_exercise3/shaders_exercise3.o src/1.getting_started/1.2.hello_window_clear/hello_window_clear.o src/1.getting_started/7.3.camera_mouse_zoom/camera_mouse_zoom.o src/1.getting_started/5.2.transformations_exercise2/transformations_exercise2.o src/1.getting_started/7.1.camera_circle/camera_circle.o src/1.getting_started/4.3.textures_exercise1/textures_exercise1.o src/1.getting_started/7.5.camera_exercise1/camera_exercise1.o src/1.getting_started/4.4.textures_exercise2/textures_exercise2.o src/1.getting_started/4.2.textures_combined/textures_combined.o src/1.getting_started/3.5.shaders_exercise2/shaders_exercise2.o src/1.getting_started/6.3.coordinate_systems_multiple/coordinate_systems_multiple.o src/1.getting_started/7.2.camera_keyboard_dt/camera_keyboard_dt.o src/1.getting_started/3.1.shaders_uniform/shaders_uniform.o src/1.g 
+etting_started/5.1.transformations/transformations.o src/1.getting_started/6.4.coordinate_systems_exercise3/coordinate_systems_exercise3.o src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.o src/1.getting_started/2.2.hello_triangle_indexed/hello_triangle_indexed.o src/1.getting_started/4.6.textures_exercise4/textures_exercise4.o src/1.getting_started/4.1.textures/textures.o src/1.getting_started/6.2.coordinate_systems_depth/coordinate_systems_depth.o src/1.getting_started/4.5.textures_exercise3/textures_exercise3.o src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.o src/1.getting_started/3.3.shaders_class/shaders_class.o src/1.getting_started/7.4.camera_class/camera_class.o src/1.getting_started/5.2.transformations_exercise1/transformations_exercise1.o src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.o src/1.getting_started/3.4.shaders_exercise1/shaders_exercise1.o src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.o src/1.getting_started/2.1.hello_triangle/hello_triangle.o src/1.getting_started/1.1.hello_window/hello_window.o src/6.pbr/2.1.1.ibl_irradiance_conversion/ibl_irradiance_conversion.o src/6.pbr/2.2.1.ibl_specular/ibl_specular.o src/6.pbr/2.1.2.ibl_irradiance/ibl_irradiance.o src/6.pbr/1.1.lighting/lighting.o src/6.pbr/1.2.lighting_textured/lighting_textured.o src/6.pbr/2.2.2.ibl_specular_textured/ibl_specular_textured.o src/7.in_practice/1.debugging/debugging.o src/7.in_practice/2.text_rendering/text_rendering.o src/7.in_practice/3.2d_game/0.full_source/ball_object.o src/7.in_practice/3.2d_game/0.full_source/game.o src/7.in_practice/3.2d_game/0.full_source/game_level.o src/7.in_practice/3.2d_game/0.full_source/game_object.o src/7.in_practice/3.2d_game/0.full_source/particle_generator.o src/7.in_practice/3.2d_game/0.full_source/post_processor.o src/7.in_practice/3.2d_game/0.full_source/program.o src/7.in_practice/3.2d_game/0.full_source/resource_manager.o src/7.in_practice/3.2d_game/0.full_source/shader.o src/7.in_practice/3.2d_game/0.full_source/sprite_renderer.o src/7.in_practice/3.2d_game/0.full_source/stb_image.o src/7.in_practice/3.2d_game/0.full_source/text_renderer.o src/7.in_practice/3.2d_game/0.full_source/texture.o src/7.in_practice/3.2d_game/0.full_source/progress/2.game.o src/7.in_practice/3.2d_game/0.full_source/progress/2.program.o src/7.in_practice/3.2d_game/0.full_source/progress/3.game.o src/7.in_practice/3.2d_game/0.full_source/progress/4.game.o src/7.in_practice/3.2d_game/0.full_source/progress/5.1.ball_object_collisions.o src/7.in_practice/3.2d_game/0.full_source/progress/5.game.o src/7.in_practice/3.2d_game/0.full_source/progress/6.game.o src/7.in_practice/3.2d_game/0.full_source/progress/7.game.o src/7.in_practice/3.2d_game/0.full_source/progress/8.game.o src/7.in_practice/3.2d_game/0.full_source/progress/9.game.o src/2.lighting/5.2.light_casters_point/light_casters_point.o src/2.lighting/2.5.basic_lighting_exercise3/basic_lighting_exercise3.o src/2.lighting/4.2.lighting_maps_specular_map/ 
+lighting_maps_specular.o src/2.lighting/4.3.lighting_maps_exercise2/lighting_maps_exercise2.o src/2.lighting/5.1.light_casters_directional/light_casters_directional.o src/2.lighting/6.multiple_lights/multiple_lights.o src/2.lighting/1.colors/colors.o src/2.lighting/2.3.basic_lighting_exercise1/basic_lighting_exercise1.o src/2.lighting/4.4.lighting_maps_exercise4/lighting_maps_exercise4.o src/2.lighting/6.multiple_lights_exercise1/multiple_lights_exercise1.o src/2.lighting/3.2.materials_exercise1/materials_exercise1.o src/2.lighting/2.4.basic_lighting_exercise2/basic_lighting_exercise2.o src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.o src/2.lighting/5.3.light_casters_spot/light_casters_spot.o src/2.lighting/3.1.materials/materials.o src/2.lighting/4.1.lighting_maps_diffuse_map/lighting_maps_diffuse.o src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.o src/2.lighting/5.4.light_casters_spot_soft/light_casters_spot_soft.o src/4.advanced_opengl/1.1.depth_testing/depth_testing.o src/4.advanced_opengl/9.2.geometry_shader_exploding/geometry_shader_exploding.o src/4.advanced_opengl/1.2.depth_testing_view/depth_testing_view.o src/4.advanced_opengl/4.face_culling_exercise1/face_culling_exercise1.o src/4.advanced_opengl/2.stencil_testing/stencil_testing.o src/4.advanced_opengl/6.2.cubemaps_environment_mapping/cubemaps_environment_mapping.o src/4.advanced_opengl/8.advanced_glsl_ubo/advanced_glsl_ubo.o src/4.advanced_opengl/10.1.instancing_quads/instancing_quads.o src/4.advanced_opengl/3.2.blending_sort/blending_sorted.o src/4.advanced_opengl/10.3.asteroids_instanced/asteroids_instanced.o src/4.advanced_opengl/6.1.cubemaps_skybox/cubemaps_skybox.o src/4.advanced_opengl/5.2.framebuffers_exercise1/framebuffers_exercise1.o src/4.advanced_opengl/5.1.framebuffers/framebuffers.o src/4.advanced_opengl/3.1.blending_discard/blending_discard.o src/4.advanced_opengl/11.1.anti_aliasing_msaa/anti_aliasing_msaa.o src/4.advanced_opengl/10.2.asteroids/asteroids.o src/4.advanced_opengl/11.2.anti_aliasing_offscreen/anti_aliasing_offscreen.o src/4.advanced_opengl/9.3.geometry_shader_normals/normal_visualization.o src/4.advanced_opengl/9.1.geometry_shader_houses/geometry_shader_houses.o src/5.advanced_lighting/3.1.1.shadow_mapping_depth/shadow_mapping_depth.o src/5.advanced_lighting/2.gamma_correction/gamma_correction.o src/5.advanced_lighting/8.1.deferred_shading/deferred_shading.o src/5.advanced_lighting/5.2.steep_parallax_mapping/steep_parallax_mapping.o src/5.advanced_lighting/4.normal_mapping/normal_mapping.o src/5.advanced_lighting/8.2.deferred_shading_volumes/deferred_shading_volumes.o src/5.advanced_lighting/3.2.1.point_shadows/point_shadows.o src/5.advanced_lighting/7.bloom/bloom.o src/5.advanced_lighting/5.3.parallax_occlusion_mapping/parallax_occlusion_mapping.o src/5.advanced_lighting/9.ssao/ssao.o src/5.advanced_lighting/3.1.3.shadow_mapping/shadow_mapping.o src/5.advanced_lighting/1.advanced_lighting/advanced_lighting.o src/5.advanced_lighting/3.3.csm/csm.o src/5.advanced_lighting/3.2.2.point_shadows_soft/point_shadows_soft.o src/5.advanced_lighting/6.hdr/hdr.o src/5.advanced_lighting/5.1.parallax_mapping/parallax_mapping.o src/5.advanced_lighting/3.1.2.shadow_mapping_base/shadow_mapping_base.o src/3.model_loading/1.model_loading/model_loading.o src/8.guest/2022/5.computeshader_helloworld/computer_shader_hello_world.o src/8.guest/2022/6.physically_based_bloom/physically_based_bloom.o src/8.guest/2021/1.scene/2.frustum_culling/frustum_culling.o src/8.guest/2021/1.scene/1.scene_graph/scene_graph.o src/8.guest/2021/2.csm/shadow_mapping.o src/8.guest/2021/3.tessellation/terrain_gpu_dist/main.o src/8.guest/2021/3.tessellation/terrain_cpu_src/main.o src/8.guest/2021/4.dsa/hello_triangle_dsa.o src/8.guest/2020/oit/weighted_blended.o src/8.guest/2020/skeletal_animation/skeletal_animation.o
+# environment
+THEOS = /Users/fengyinghao/theos
+# environment
+ 
+LANG = C
+# environment
+VSCODE_PID = 1359
+# variable set hash-table stats:
+# Load=87/1024=8%, Rehash=0, Collisions=3/134=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src/1.getting_started/4.5.textures_exercise3 (device 16777224, inode 61172867): 5 files, no impossibilities.
+# src/5.advanced_lighting/5.2.steep_parallax_mapping (device 16777224, inode 61173224): 5 files, no impossibilities.
+# src/4.advanced_opengl/5.1.framebuffers (device 16777224, inode 61173166): 7 files, no impossibilities.
+# src/2.lighting/5.3.light_casters_spot (device 16777224, inode 61173073): 7 files, no impossibilities.
+# src/6.pbr (device 16777224, inode 61172893): 9 files, no impossibilities.
+# src/1.getting_started/5.2.transformations_exercise1 (device 16777224, inode 61172881): 3 files, no impossibilities.
+# src/5.advanced_lighting/8.2.deferred_shading_volumes (device 16777224, inode 61173232): 9 files, no impossibilities.
+# src/7.in_practice (device 16777224, inode 61172944): 6 files, no impossibilities.
+# src/5.advanced_lighting/9.ssao (device 16777224, inode 61173260): 9 files, no impossibilities.
+# src/1.getting_started/4.2.textures_combined (device 16777224, inode 61172829): 5 files, no impossibilities.
+# src/8.guest/2020/oit (device 16777224, inode 61173381): 11 files, no impossibilities.
+# src/2.lighting/2.2.basic_lighting_specular (device 16777224, inode 61173067): 7 files, no impossibilities.
+# src/8.guest/2021/1.scene/1.scene_graph (device 16777224, inode 61173341): 5 files, no impossibilities.
+# src/5.advanced_lighting/5.3.parallax_occlusion_mapping (device 16777224, inode 61173256): 5 files, no impossibilities.
+# src/1.getting_started/1.2.hello_window_clear (device 16777224, inode 61172806): 3 files, no impossibilities.
+# src/2.lighting/3.2.materials_exercise1 (device 16777224, inode 61173059): 7 files, no impossibilities.
+# src/1.getting_started/4.1.textures (device 16777224, inode 61172859): 5 files, no impossibilities.
+# src/2.lighting/4.3.lighting_maps_exercise2 (device 16777224, inode 61173028): 3 files, no impossibilities.
+# src/4.advanced_opengl/9.2.geometry_shader_exploding (device 16777224, inode 61173110): 6 files, no impossibilities.
+# . (device 16777224, inode 18663274): 23 files, no impossibilities.
+# src/8.guest/2021/1.scene (device 16777224, inode 61173336): 4 files, no impossibilities.
+# src/2.lighting/6.multiple_lights (device 16777224, inode 61173037): 7 files, no impossibilities.
+# src/1.getting_started/3.1.shaders_uniform (device 16777224, inode 61172843): 3 files, no impossibilities.
+# src/1.getting_started/5.1.transformations (device 16777224, inode 61172845): 5 files, no impossibilities.
+# src/1.getting_started/2.1.hello_triangle (device 16777224, inode 61172889): 3 files, no impossibilities.
+# src/1.getting_started/7.4.camera_class (device 16777224, inode 61172877): 5 files, no impossibilities.
+# src/1.getting_started/7.3.camera_mouse_zoom (device 16777224, inode 61172808): 5 files, no impossibilities.
+# src/4.advanced_opengl/6.1.cubemaps_skybox (device 16777224, inode 61173154): 7 files, no impossibilities.
+# src/8.guest/2021/3.tessellation/terrain_gpu_dist/resources/heightmaps (device 16777224, inode 61173360): 5 files, no impossibilities.
+# src/8.guest/2020 (device 16777224, inode 61173380): 4 files, no impossibilities.
+# src/4.advanced_opengl/10.2.asteroids (device 16777224, inode 61173180): 5 files, no impossibilities.
+# src/5.advanced_lighting/3.2.2.point_shadows_soft (device 16777224, inode 61173284): 8 files, no impossibilities.
+# src/1.getting_started/7.2.camera_keyboard_dt (device 16777224, inode 61172839): 5 files, no impossibilities.
+# src/1.getting_started/2.2.hello_triangle_indexed (device 16777224, inode 61172853): 3 files, no impossibilities.
+# src/5.advanced_lighting/4.normal_mapping (device 16777224, inode 61173228): 5 files, no impossibilities.
+# src/8.guest/2022/6.physically_based_bloom (device 16777224, inode 61173321): 14 files, no impossibilities.
+# src/5.advanced_lighting/5.1.parallax_mapping (device 16777224, inode 61173297): 5 files, no impossibilities.
+# src/1.getting_started/4.3.textures_exercise1 (device 16777224, inode 61172821): 3 files, no impossibilities.
+# src/3.model_loading/1.model_loading (device 16777224, inode 61173310): 5 files, no impossibilities.
+# src/5.advanced_lighting/7.bloom (device 16777224, inode 61173247): 10 files, no impossibilities.
+# src/7.in_practice/3.2d_game/0.full_source/levels (device 16777224, inode 61173003): 6 files, no impossibilities.
+# src/6.pbr/2.1.2.ibl_irradiance (device 16777224, inode 61172915): 10 files, no impossibilities.
+# src/1.getting_started/3.3.shaders_class (device 16777224, inode 61172873): 5 files, no impossibilities.
+# src/4.advanced_opengl/11.2.anti_aliasing_offscreen (device 16777224, inode 61173184): 7 files, no impossibilities.
+# src/2.lighting/5.1.light_casters_directional (device 16777224, inode 61173031): 7 files, no impossibilities.
+# src/2.lighting/2.5.basic_lighting_exercise3 (device 16777224, inode 61173020): 3 files, no impossibilities.
+# src/2.lighting/6.multiple_lights_exercise1 (device 16777224, inode 61173057): 3 files, no impossibilities.
+# src/7.in_practice/3.2d_game/0.full_source (device 16777224, inode 61172956): 38 files, no impossibilities.
+# src/1.getting_started/7.6.camera_exercise2 (device 16777224, inode 61172802): 3 files, no impossibilities.
+# src/1.getting_started/3.6.shaders_exercise3 (device 16777224, inode 61172804): 3 files, no impossibilities.
+# src/7.in_practice/2.text_rendering (device 16777224, inode 61172950): 6 files, no impossibilities.
+# src/2.lighting/4.2.lighting_maps_specular_map (device 16777224, inode 61173022): 7 files, no impossibilities.
+# src/6.pbr/2.1.1.ibl_irradiance_conversion (device 16777224, inode 61172894): 9 files, no impossibilities.
+# src/8.guest/2021 (device 16777224, inode 61173335): 6 files, no impossibilities.
+# src/8.guest/2021/3.tessellation/terrain_cpu_src (device 16777224, inode 61173369): 6 files, no impossibilities.
+# src/6.pbr/1.2.lighting_textured (device 16777224, inode 61172928): 5 files, no impossibilities.
+# src/8.guest/2021/4.dsa (device 16777224, inode 61173378): 3 files, no impossibilities.
+# src (device 16777224, inode 61172795): 14 files, no impossibilities.
+# src/2.lighting (device 16777224, inode 61173013): 21 files, no impossibilities.
+# src/4.advanced_opengl/10.1.instancing_quads (device 16777224, inode 61173140): 5 files, no impossibilities.
+# src/6.pbr/2.2.2.ibl_specular_textured (device 16777224, inode 61172932): 13 files, no impossibilities.
+# src/4.advanced_opengl/5.2.framebuffers_exercise1 (device 16777224, inode 61173160): 7 files, no impossibilities.
+# src/1.getting_started/6.3.coordinate_systems_multiple (device 16777224, inode 61172835): 5 files, no impossibilities.
+# src/8.guest/2021/3.tessellation/terrain_gpu_dist/resources (device 16777224, inode 61173359): 3 files, no impossibilities.
+# src/4.advanced_opengl/2.stencil_testing (device 16777224, inode 61173122): 6 files, no impossibilities.
+# src/1.getting_started/4.4.textures_exercise2 (device 16777224, inode 61172825): 5 files, no impossibilities.
+# src/1.getting_started (device 16777224, inode 61172797): 35 files, no impossibilities.
+# src/5.advanced_lighting (device 16777224, inode 61173202): 20 files, no impossibilities.
+# src/2.lighting/3.1.materials (device 16777224, inode 61173079): 7 files, no impossibilities.
+# src/5.advanced_lighting/3.3.csm (device 16777224, inode 61173280): 5 files, no impossibilities.
+# src/1.getting_started/5.2.transformations_exercise2 (device 16777224, inode 61172813): 5 files, no impossibilities.
+# src/1.getting_started/2.3.hello_triangle_exercise1 (device 16777224, inode 61172851): 3 files, no impossibilities.
+# src/8.guest/2021/3.tessellation (device 16777224, inode 61173356): 4 files, no impossibilities.
+# src/4.advanced_opengl/10.3.asteroids_instanced (device 16777224, inode 61173148): 7 files, no impossibilities.
+# src/4.advanced_opengl/9.3.geometry_shader_normals (device 16777224, inode 61173190): 8 files, no impossibilities.
+ 
+# src/8.guest/2021/3.tessellation/terrain_gpu_dist (device 16777224, inode 61173357): 8 files, no impossibilities.
+# src/5.advanced_lighting/2.gamma_correction (device 16777224, inode 61173210): 5 files, no impossibilities.
+# src/5.advanced_lighting/8.1.deferred_shading (device 16777224, inode 61173214): 11 files, no impossibilities.
+# src/5.advanced_lighting/3.1.1.shadow_mapping_depth (device 16777224, inode 61173204): 7 files, no impossibilities.
+# src/4.advanced_opengl/9.1.geometry_shader_houses (device 16777224, inode 61173197): 6 files, no impossibilities.
+# src/4.advanced_opengl (device 16777224, inode 61173105): 22 files, no impossibilities.
+# src/1.getting_started/3.4.shaders_exercise1 (device 16777224, inode 61172885): 3 files, no impossibilities.
+# src/8.guest/2021/3.tessellation/terrain_cpu_src/resources/heightmaps (device 16777224, inode 61173372): 5 files, no impossibilities.
+# src/2.lighting/1.colors (device 16777224, inode 61173043): 7 files, no impossibilities.
+# src/8.guest (device 16777224, inode 61173314): 6 files, no impossibilities.
+# src/6.pbr/1.1.lighting (device 16777224, inode 61172924): 5 files, no impossibilities.
+# src/1.getting_started/2.5.hello_triangle_exercise3 (device 16777224, inode 61172887): 3 files, no impossibilities.
+# src/4.advanced_opengl/1.2.depth_testing_view (device 16777224, inode 61173115): 5 files, no impossibilities.
+# src/4.advanced_opengl/8.advanced_glsl_ubo (device 16777224, inode 61173133): 8 files, no impossibilities.
+# src/4.advanced_opengl/11.1.anti_aliasing_msaa (device 16777224, inode 61173176): 5 files, no impossibilities.
+# src/8.guest/2022/5.computeshader_helloworld (device 16777224, inode 61173316): 6 files, no impossibilities.
+# src/2.lighting/2.3.basic_lighting_exercise1 (device 16777224, inode 61173049): 3 files, no impossibilities.
+# src/7.in_practice/1.debugging (device 16777224, inode 61172946): 5 files, no impossibilities.
+# src/8.guest/2020/skeletal_animation (device 16777224, inode 61173391): 5 files, no impossibilities.
+# src/4.advanced_opengl/3.1.blending_discard (device 16777224, inode 61173172): 5 files, no impossibilities.
+# src/1.getting_started/1.1.hello_window (device 16777224, inode 61172891): 3 files, no impossibilities.
+# src/7.in_practice/3.2d_game/0.full_source/progress (device 16777224, inode 61172963): 17 files, no impossibilities.
+# src/4.advanced_opengl/3.2.blending_sort (device 16777224, inode 61173144): 5 files, no impossibilities.
+# src/1.getting_started/3.5.shaders_exercise2 (device 16777224, inode 61172833): 3 files, no impossibilities.
+# src/6.pbr/2.2.1.ibl_specular (device 16777224, inode 61172902): 13 files, no impossibilities.
+# src/5.advanced_lighting/3.1.2.shadow_mapping_base (device 16777224, inode 61173301): 9 files, no impossibilities.
+# src/1.getting_started/3.2.shaders_interpolation (device 16777224, inode 61172871): 3 files, no impossibilities.
+# src/1.getting_started/2.4.hello_triangle_exercise2 (device 16777224, inode 61172883): 3 files, no impossibilities.
+# src/1.getting_started/7.1.camera_circle (device 16777224, inode 61172817): 5 files, no impossibilities.
+# src/5.advanced_lighting/3.2.1.point_shadows (device 16777224, inode 61173240): 8 files, no impossibilities.
+# src/2.lighting/4.4.lighting_maps_exercise4 (device 16777224, inode 61173051): 7 files, no impossibilities.
+# src/4.advanced_opengl/4.face_culling_exercise1 (device 16777224, inode 61173120): 3 files, no impossibilities.
+# src/2.lighting/5.4.light_casters_spot_soft (device 16777224, inode 61173097): 7 files, no impossibilities.
+# src/2.lighting/2.1.basic_lighting_diffuse (device 16777224, inode 61173091): 7 files, no impossibilities.
+# src/5.advanced_lighting/3.1.3.shadow_mapping (device 16777224, inode 61173268): 9 files, no impossibilities.
+# src/2.lighting/4.1.lighting_maps_diffuse_map (device 16777224, inode 61173085): 7 files, no impossibilities.
+# src/8.guest/2022 (device 16777224, inode 61173315): 4 files, no impossibilities.
+# src/1.getting_started/6.1.coordinate_systems (device 16777224, inode 61172798): 6 files, no impossibilities.
+# src/4.advanced_opengl/6.2.cubemaps_environment_mapping (device 16777224, inode 61173127): 7 files, no impossibilities.
+# src/4.advanced_opengl/1.1.depth_testing (device 16777224, inode 61173106): 5 files, no impossibilities.
+# src/1.getting_started/7.5.camera_exercise1 (device 16777224, inode 61172823): 3 files, no impossibilities.
+# src/1.getting_started/6.4.coordinate_systems_exercise3 (device 16777224, inode 61172849): 3 files, no impossibilities.
+# src/8.guest/2021/1.scene/2.frustum_culling (device 16777224, inode 61173337): 5 files, no impossibilities.
+# src/8.guest/2021/3.tessellation/terrain_cpu_src/resources (device 16777224, inode 61173371): 3 files, no impossibilities.
+# src/7.in_practice/3.2d_game (device 16777224, inode 61172955): 3 files, no impossibilities.
+# src/1.getting_started/4.6.textures_exercise4 (device 16777224, inode 61172855): 5 files, no impossibilities.
+# src/5.advanced_lighting/1.advanced_lighting (device 16777224, inode 61173276): 5 files, no impossibilities.
+# src/2.lighting/2.4.basic_lighting_exercise2 (device 16777224, inode 61173065): 3 files, no impossibilities.
+# src/1.getting_started/6.2.coordinate_systems_depth (device 16777224, inode 61172863): 5 files, no impossibilities.
+# src/5.advanced_lighting/6.hdr (device 16777224, inode 61173291): 7 files, no impossibilities.
+# src/8.guest/2021/2.csm (device 16777224, inode 61173345): 12 files, no impossibilities.
+# src/3.model_loading (device 16777224, inode 61173309): 3 files, no impossibilities.
+# src/2.lighting/5.2.light_casters_point (device 16777224, inode 61173014): 7 files, no impossibilities.
+
+# 876 files, no impossibilities in 128 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+src/5.advanced_lighting/6.hdr/hdr.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+# Not a target:
+src/1.getting_started/6.3.coordinate_systems_multiple/coordinate_systems_multiple.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/5.advanced_lighting/7.bloom/bloom.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/progress/2.program.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/2.1.hello_triangle/hello_triangle.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/3.4.shaders_exercise1/shaders_exercise1.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/5.2.transformations_exercise1/transformations_exercise1.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: output main
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 68):
+	@echo Executing 'all' complete!
+	
+
+# Not a target:
+src/3.model_loading/1.model_loading/model_loading.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/progress/7.game.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/4.1.lighting_maps_diffuse_map/lighting_maps_diffuse.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/8.guest/2021/2.csm/shadow_mapping.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/stb_image.o:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-14 10:41:23
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/1.getting_started/1.2.hello_window_clear/hello_window_clear.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/7.3.camera_mouse_zoom/camera_mouse_zoom.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/5.advanced_lighting/3.1.3.shadow_mapping/shadow_mapping.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/6.4.coordinate_systems_exercise3/coordinate_systems_exercise3.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/8.guest/2021/4.dsa/hello_triangle_dsa.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/5.advanced_lighting/4.normal_mapping/normal_mapping.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/9.1.geometry_shader_houses/geometry_shader_houses.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/11.2.anti_aliasing_offscreen/anti_aliasing_offscreen.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/progress/6.game.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/4.4.textures_exercise2/textures_exercise2.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/sprite_renderer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/post_processor.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/3.5.shaders_exercise2/shaders_exercise2.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/3.3.shaders_class/shaders_class.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/5.advanced_lighting/8.1.deferred_shading/deferred_shading.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/shader.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/8.guest/2022/5.computeshader_helloworld/computer_shader_hello_world.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/5.advanced_lighting/5.2.steep_parallax_mapping/steep_parallax_mapping.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/3.1.materials/materials.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/5.1.light_casters_directional/light_casters_directional.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/2.2.hello_triangle_indexed/hello_triangle_indexed.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/2.text_rendering/text_rendering.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/5.1.transformations/transformations.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-14 10:51:17
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/2.4.basic_lighting_exercise2/basic_lighting_exercise2.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/5.advanced_lighting/8.2.deferred_shading_volumes/deferred_shading_volumes.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/ball_object.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/5.advanced_lighting/5.1.parallax_mapping/parallax_mapping.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/game.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/10.1.instancing_quads/instancing_quads.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/11.1.anti_aliasing_msaa/anti_aliasing_msaa.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/1.2.depth_testing_view/depth_testing_view.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/progress/2.game.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/3.6.shaders_exercise3/shaders_exercise3.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/4.3.textures_exercise1/textures_exercise1.o:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/game_object.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/8.advanced_glsl_ubo/advanced_glsl_ubo.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/5.advanced_lighting/9.ssao/ssao.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/5.advanced_lighting/5.3.parallax_occlusion_mapping/parallax_occlusion_mapping.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/5.advanced_lighting/2.gamma_correction/gamma_correction.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/5.advanced_lighting/3.1.1.shadow_mapping_depth/shadow_mapping_depth.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/7.2.camera_keyboard_dt/camera_keyboard_dt.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/resource_manager.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/text_renderer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/8.guest/2020/skeletal_animation/skeletal_animation.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/5.2.transformations_exercise2/transformations_exercise2.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/1.debugging/debugging.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/6.multiple_lights_exercise1/multiple_lights_exercise1.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/2.stencil_testing/stencil_testing.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/6.pbr/2.1.2.ibl_irradiance/ibl_irradiance.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/6.1.cubemaps_skybox/cubemaps_skybox.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/stb_image.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/2.3.basic_lighting_exercise1/basic_lighting_exercise1.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/8.guest/2021/1.scene/2.frustum_culling/frustum_culling.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/particle_generator.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/6.1.coordinate_systems/coordinate_systems.o:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-06-14 10:42:42
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/6.2.coordinate_systems_depth/coordinate_systems_depth.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/progress/3.game.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/5.advanced_lighting/1.advanced_lighting/advanced_lighting.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/5.advanced_lighting/3.2.2.point_shadows_soft/point_shadows_soft.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/6.pbr/2.1.1.ibl_irradiance_conversion/ibl_irradiance_conversion.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/4.2.lighting_maps_specular_map/lighting_maps_specular.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/9.3.geometry_shader_normals/normal_visualization.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/1.1.depth_testing/depth_testing.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/5.2.framebuffers_exercise1/framebuffers_exercise1.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/1.1.hello_window/hello_window.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/3.1.shaders_uniform/shaders_uniform.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/10.2.asteroids/asteroids.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/10.3.asteroids_instanced/asteroids_instanced.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 90):
+	./$(OUTPUTMAIN) 
+	@echo Executing 'run: all' complete!
+	
+
+.cpp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 81):
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $<  -o $@
+	
+
+# Not a target:
+src/8.guest/2021/1.scene/1.scene_graph/scene_graph.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/6.pbr/2.2.1.ibl_specular/ibl_specular.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 85):
+	$(RM) $(OUTPUTMAIN)
+	$(RM) $(call FIXPATH,$(OBJECTS))
+	@echo Cleanup complete!
+	
+
+# Not a target:
+src/6.pbr/2.2.2.ibl_specular_textured/ibl_specular_textured.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/4.5.textures_exercise3/textures_exercise3.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+# Not a target:
+src/4.advanced_opengl/6.2.cubemaps_environment_mapping/cubemaps_environment_mapping.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/5.3.light_casters_spot/light_casters_spot.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/4.4.lighting_maps_exercise4/lighting_maps_exercise4.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/8.guest/2022/6.physically_based_bloom/physically_based_bloom.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/4.6.textures_exercise4/textures_exercise4.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/8.guest/2021/3.tessellation/terrain_cpu_src/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/progress/5.game.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/4.face_culling_exercise1/face_culling_exercise1.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/game_level.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/progress/9.game.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/1.colors/colors.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/7.1.camera_circle/camera_circle.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/7.4.camera_class/camera_class.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/3.2.materials_exercise1/materials_exercise1.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/4.1.textures/textures.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/5.4.light_casters_spot_soft/light_casters_spot_soft.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/6.multiple_lights/multiple_lights.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/3.1.blending_discard/blending_discard.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/5.advanced_lighting/3.3.csm/csm.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/progress/5.1.ball_object_collisions.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/7.6.camera_exercise2/camera_exercise2.o:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/4.advanced_opengl/5.1.framebuffers/framebuffers.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/2.5.basic_lighting_exercise3/basic_lighting_exercise3.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+main: src/stb_image.o src/1.getting_started/6.1.coordinate_systems/coordinate_systems.o src/1.getting_started/7.6.camera_exercise2/camera_exercise2.o src/1.getting_started/3.6.shaders_exercise3/shaders_exercise3.o src/1.getting_started/1.2.hello_window_clear/hello_window_clear.o src/1.getting_started/7.3.camera_mouse_zoom/camera_mouse_zoom.o src/1.getting_started/5.2.transformations_exercise2/transformations_exercise2.o src/1.getting_started/7.1.camera_circle/camera_circle.o src/1.getting_started/4.3.textures_exercise1/textures_exercise1.o src/1.getting_started/7.5.camera_exercise1/camera_exercise1.o src/1.getting_started/4.4.textures_exercise2/textures_exercise2.o src/1.getting_started/4.2.textures_combined/textures_combined.o src/1.getting_started/3.5.shaders_exercise2/shaders_exercise2.o src/1.getting_started/6.3.coordinate_systems_multiple/coordinate_systems_multiple.o src/1.getting_started/7.2.camera_keyboard_dt/camera_keyboard_dt.o src/1.getting_started/3.1.shaders_uniform/shaders_uniform.o src/1.getting_started/5.1.transformations/transformations.o src/1.getting_started/6.4.coordinate_systems_exercise3/coordinate_systems_exercise3.o src/1.getting_started/2.3.hello_triangle_exercise1/hello_triangle_exercise1.o src/1.getting_started/2.2.hello_triangle_indexed/hello_triangle_indexed.o src/1.getting_started/4.6.textures_exercise4/textures_exercise4.o src/1.getting_started/4.1.textures/textures.o src/1.getting_started/6.2.coordinate_systems_depth/coordinate_systems_depth.o src/1.getting_started/4.5.textures_exercise3/textures_exercise3.o src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.o src/1.getting_started/3.3.shaders_class/shaders_class.o src/1.getting_started/7.4.camera_class/camera_class.o src/1.getting_started/5.2.transformations_exercise1/transformations_exercise1.o src/1.getting_started/2.4.hello_triangle_exercise2/hello_triangle_exercise2.o src/1.getting_started/3.4.shaders_exercise1/shaders_exercise1.o src/1.getting_started/2.5.hello_triangle_exercise3/hello_triangle_exercise3.o src/1.getting_started/2.1.hello_triangle/hello_triangle.o src/1.getting_started/1.1.hello_window/hello_window.o src/6.pbr/2.1.1.ibl_irradiance_conversion/ibl_irradiance_conversion.o src/6.pbr/2.2.1.ibl_specular/ibl_specular.o src/6.pbr/2.1.2.ibl_irradiance/ibl_irradiance.o src/6.pbr/1.1.lighting/lighting.o src/6.pbr/1.2.lighting_textured/lighting_textured.o src/6.pbr/2.2.2.ibl_specular_textured/ibl_specular_textured.o src/7.in_practice/1.debugging/debugging.o src/7.in_practice/2.text_rendering/text_rendering.o src/7.in_practice/3.2d_game/0.full_source/ball_object.o src/7.in_practice/3.2d_game/0.full_source/game.o src/7.in_practice/3.2d_game/0.full_source/game_level.o src/7.in_practice/3.2d_game/0.full_source/game_object.o src/7.in_practice/3.2d_game/0.full_source/particle_generator.o src/7.in_practice/3.2d_game/0.full_source/post_processor.o src/7.in_practice/3.2d_game/0.full_source/program.o src/7.in_practice/3.2d_game/0.full_source/resource_manager.o src/7.in_practice/3.2d_game/0.full_source/shader.o src/7.in_practice/3.2d_game/0.full_source/sprite_renderer.o src/7.in_practice/3.2d_game/0.full_source/stb_image.o src/7.in_practice/3.2d_game/0.full_source/text_renderer.o src/7.in_practice/3.2d_game/0.full_source/texture.o src/7.in_practice/3.2d_game/0.full_source/progress/2.game.o src/7.in_practice/3.2d_game/0.full_source/progress/2.program.o src/7.in_practice/3.2d_game/0.full_source/progress/3.game.o src/7.in_practice/3.2d_game/0.full_source/progress/4.game.o src/7.in_practice/3.2d_game/0.full_source/progress/5.1.ball_object_collisions.o src/7.in_practice/3.2d_game/0.full_source/progress/5.game.o src/7.in_practice/3.2d_game/0.full_source/progress/6.game.o src/7.in_practice/3.2d_game/0.full_source/progress/7.game.o src/7.in_practice/3.2d_game/0.full_source/progress/8.game.o src/7.in_practice/3.2d_game/0.full_source/progress/9.game.o src/2.lighting/5.2.light_casters_point/light_casters_point.o src/2.lighting/2.5.basic_lighting_exercise3/basic_lighting_exercise3.o src/2.lighting/4.2.lighting_maps_specular_map/lighting_maps_specular.o src/2.lighting/4.3.lighting_maps_exercise2/lighting_maps_exercise2.o src/2.lighting/5.1.light_casters_directional/light_casters_directional.o src/2.lighting/6.multiple_lights/multiple_lights.o src/2.lighting/1.colors/colors.o src/2.lighting/2.3.basic_lighting_exercise1/basic_lighting_exercise1.o src/2.lighting/4.4.lighting_maps_exercise4/lighting_maps_exercise4.o src/2.lighting/6.multiple_lights_exercise1/multiple_lights_exercise1.o src/2.lighting/3.2.materials_exercise1/materials_exercise1.o src/2.lighting/2.4.basic_lighting_exercise2/basic_lighting_exercise2.o src/2.lighting/2.2.basic_lighting_specular/basic_lighting_specular.o src/2.lighting/5.3.light_casters_spot/light_casters_spot.o src/2.lighting/3.1.materials/materials.o src/2.lighting/4.1.lighting_maps_diffuse_map/lighting_maps_diffuse.o src/2.lighting/2.1.basic_lighting_diffuse/basic_lighting_diffuse.o src/2.lighting/5.4.light_casters_spot_soft/light_casters_spot_soft.o src/4.advanced_opengl/1.1.depth_testing/depth_testing.o src/4.advanced_opengl/9.2.geometry_shader_exploding/geometry_shader_exploding.o src/4.advanced_opengl/1.2.depth_testing_view/depth_testing_view.o src/4.advanced_opengl/4.face_culling_exercise1/face_culling_exercise1.o src/4.advanced_opengl/2.stencil_testing/stencil_testing.o src/4.advanced_opengl/6.2.cubemaps_environment_mapping/cubemaps_environment_mapping.o src/4.advanced_opengl/8.advanced_glsl_ubo/advanced_glsl_ubo.o src/4.advanced_opengl/10.1.instancing_quads/instancing_quads.o src/4.advanced_opengl/3.2.blending_sort/blending_sorted.o src/4.advanced_opengl/10.3.asteroids_instanced/asteroids_instanced.o src/4.advanced_opengl/6.1.cubemaps_skybox/cubemaps_skybox.o src/4.advanced_opengl/5.2.framebuffers_exercise1/framebuffers_exercise1.o src/4.advanced_opengl/5.1.framebuffers/framebuffers.o src/4.advanced_opengl/3.1.blending_discard/blending_discard.o src/4.advanced_opengl/11.1.anti_aliasing_msaa/anti_aliasing_msaa.o src/4.advanced_opengl/10.2.asteroids/asteroids.o src/4.advanced_opengl/11.2.anti_aliasing_offscreen/anti_aliasing_offscreen.o src/4.advanced_opengl/9.3.geometry_shader_normals/normal_visualization.o src/4.advanced_opengl/9.1.geometry_shader_houses/geometry_shader_houses.o src/5.advanced_lighting/3.1.1.shadow_mapping_depth/shadow_mapping_depth.o src/5.advanced_lighting/2.gamma_correction/gamma_correction.o src/5.advanced_lighting/8.1.deferred_shading/deferred_shading.o src/5.advanced_lighting/5.2.steep_parallax_mapping/steep_parallax_mapping.o src/5.advanced_lighting/4.normal_mapping/normal_mapping.o src/5.advanced_lighting/8.2.deferred_shading_volumes/deferred_shading_volumes.o src/5.advanced_lighting/3.2.1.point_shadows/point_shadows.o src/5.advanced_lighting/7.bloom/bloom.o src/5.advanced_lighting/5.3.parallax_occlusion_mapping/parallax_occlusion_mapping.o src/5.advanced_lighting/9.ssao/ssao.o src/5.advanced_lighting/3.1.3.shadow_mapping/shadow_mapping.o src/5.advanced_lighting/1.advanced_lighting/advanced_lighting.o src/5.advanced_lighting/3.3.csm/csm.o src/5.advanced_lighting/3.2.2.point_shadows_soft/point_shadows_soft.o src/5.advanced_lighting/6.hdr/hdr.o src/5.advanced_lighting/5.1.parallax_mapping/parallax_mapping.o src/5.advanced_lighting/3.1.2.shadow_mapping_base/shadow_mapping_base.o src/3.model_loading/1.model_loading/model_loading.o src/8.guest/2022/5.computeshader_helloworld/computer_shader_hello_world.o src/8.guest/2022/6.physically_based_bloom/physically_based_bloom.o src/8.guest/2021/1.scene/2.frustum_culling/frustum_culling.o src/8.guest/2021/1.scene/1.scene_graph/scene_graph.o src/8.guest/2021/2.csm/shadow_mapping.o src/8.guest/2021/3.tessellation/terrain_gpu_dist/main.o src/8.guest/2021/3.tessellation/terrain_cpu_src/main.o src/8.guest/2021/4.dsa/hello_triangle_dsa.o src/8.guest/2020/oit/weighted_blended.o src/8.guest/2020/skeletal_animation/skeletal_animation.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 74):
+ 
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $(OUTPUTMAIN) $(OBJECTS) $(LFLAGS) $(LIBS)
+	
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/program.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+output:
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-14 09:40:22
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 71):
+	$(MD) $(OUTPUT)
+	
+
+# Not a target:
+src/8.guest/2021/3.tessellation/terrain_gpu_dist/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/3.2.blending_sort/blending_sorted.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/4.advanced_opengl/9.2.geometry_shader_exploding/geometry_shader_exploding.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/4.2.textures_combined/textures_combined.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/6.pbr/1.1.lighting/lighting.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/6.pbr/1.2.lighting_textured/lighting_textured.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/5.2.light_casters_point/light_casters_point.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/3.2.shaders_interpolation/shaders_interpolation.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/2.lighting/4.3.lighting_maps_exercise2/lighting_maps_exercise2.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/progress/4.game.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/5.advanced_lighting/3.2.1.point_shadows/point_shadows.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/1.getting_started/7.5.camera_exercise1/camera_exercise1.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/8.guest/2020/oit/weighted_blended.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/progress/8.game.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/7.in_practice/3.2d_game/0.full_source/texture.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/5.advanced_lighting/3.1.2.shadow_mapping_base/shadow_mapping_base.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=139/1024=14%, Rehash=0, Collisions=24/285=8%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Jun 14 16:25:28 2022
+
+ 

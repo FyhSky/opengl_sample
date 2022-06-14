@@ -1,1 +1,0 @@
-/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/1.getting_started/4.4.textures_exercise2/4.3.texture.vs

@@ -1,1 +1,0 @@
-/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/2.lighting/4.2.lighting_maps_specular_map/4.2.lighting_maps.vs

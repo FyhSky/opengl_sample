@@ -1,1 +1,0 @@
-/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/5.advanced_lighting/1.advanced_lighting/1.advanced_lighting.fs

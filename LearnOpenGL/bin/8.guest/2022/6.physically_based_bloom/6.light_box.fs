@@ -1,1 +1,0 @@
-/Users/fengyinghao/Workspace/opengl_sample/LearnOpenGL/src/8.guest/2022/6.physically_based_bloom//6.light_box.fs
