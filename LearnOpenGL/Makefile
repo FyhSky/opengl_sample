@@ -15,10 +15,11 @@ CXXFLAGS	:= -std=c++17 -Wall -Wextra -g
 LFLAGS =
 
 # define output directory
-OUTPUT	:= output
+OUTPUT	:= vscode-output
 
 # define source directory
-SRC		:= src
+SRC		:= src/$(dir)
+CLEAN_SRC		:= src/$(dir)/*.o 
 
 # define include directory
 INCLUDE	:= includes
@@ -27,6 +28,7 @@ INCLUDE	:= includes
 LIB		:= lib
 
 ifeq ($(OS),Windows_NT)
+LIBRARIES	:= -lglad -lglfw3dll -llibassimp
 MAIN	:= main.exe
 SOURCEDIRS	:= $(SRC)
 INCLUDEDIRS	:= $(INCLUDE)
@@ -35,6 +37,7 @@ FIXPATH = $(subst /,\,$1)
 RM			:= del /q /f
 MD	:= mkdir
 else
+LIBRARIES	:= -lglad -lglfw -ldl -lpthread
 MAIN	:= main
 SOURCEDIRS	:= $(shell find $(SRC) -type d)
 INCLUDEDIRS	:= $(shell find $(INCLUDE) -type d)
@@ -52,6 +55,7 @@ LIBS		:= $(patsubst %,-L%, $(LIBDIRS:%/=%))
 
 # define the C source files
 SOURCES		:= $(wildcard $(patsubst %,%/*.cpp, $(SOURCEDIRS)))
+SOURCES	+= src/stb_image.cpp
 
 # define the C object files 
 OBJECTS		:= $(SOURCES:.cpp=.o)
@@ -71,7 +75,7 @@ $(OUTPUT):
 	$(MD) $(OUTPUT)
 
 $(MAIN): $(OBJECTS) 
-	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $(OUTPUTMAIN) $(OBJECTS) $(LFLAGS) $(LIBS)
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $(OUTPUTMAIN) $(OBJECTS) $(LFLAGS) $(LIBS) $(LIBRARIES)
 
 # this is a suffix replacement rule for building .o's from .c's
 # it uses automatic variables $<: the name of the prerequisite of
@@ -87,5 +91,5 @@ clean:
 	@echo Cleanup complete!
 
 run: all
-	./$(OUTPUTMAIN) 
+	./$(OUTPUTMAIN)  src/$(dir)/
 	@echo Executing 'run: all' complete!
